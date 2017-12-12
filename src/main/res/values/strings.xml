@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ManageMe</string>
+    <string-array name="Main">
+        <item>TimeTable</item>
+        <item>Subjects</item>
+        <item>Resources</item>
+        <item>Faculty</item>
+    </string-array>
+    <string-array name="Description">
+        <item>Description1</item>
+        <item>Description2</item>
+        <item>Description3</item>
+        <item>Description4</item>
+    </string-array>
+</resources>

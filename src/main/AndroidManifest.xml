@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.manageme">
+
+    <user-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/schooltimetable"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main9Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".MainActivity4" />
+        <activity android:name=".MainActivity5" />
+        <activity android:name=".MainActivity6" />
+        <activity android:name=".Notification" />
+        <activity android:name=".Fields" />
+        <activity android:name=".MainActivity7" />
+        <activity android:name=".Assignments" />
+        <activity android:name=".MainActivity8" />
+        <activity android:name=".Projects" />
+
+        <provider
+            android:name=".CProvider"
+            android:authorities="com.android.manageme.provider" />
+        <provider
+            android:name=".CProvider2"
+            android:authorities="com.android.manageme.provider2" />
+        <provider
+            android:name=".CProvider3"
+            android:authorities="com.android.manageme.provider3" />
+        <provider
+            android:name=".CProvider4"
+            android:authorities="com.android.manageme.provider4" />
+        <provider
+            android:name=".CProvider5"
+            android:authorities="com.android.manageme.provider5" />
+        <provider
+            android:name=".CProviderA"
+            android:authorities="com.android.manageme.providerA" />
+        <provider
+            android:name=".CProviderP"
+            android:authorities="com.android.manageme.providerP" />
+
+        <receiver
+            android:name=".Notification_receiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

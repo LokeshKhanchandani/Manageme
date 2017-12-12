@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/activity_fields"
+    android:layout_height="match_parent"
+    tools:context="com.android.manageme.Fields"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="#a2f0ea">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/te"
+        />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp"
+        android:layout_toRightOf="@id/te">
+
+    </Spinner>
+    <ListView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:divider="#a2f0ea"
+        android:background="#ffffff"
+        android:dividerHeight="8dp"
+        android:id="@+id/fields"
+        android:layout_below="@id/sp"
+        />
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context="com.android.manageme.Main3Activity"
+    android:background="@drawable/login">
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:id="@+id/l1"
+    android:paddingBottom="20dp"
+    android:paddingTop="40dp">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/x1"
+        android:background="@drawable/user"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textSize="30dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/x1"
+        android:textColor="#3fffb3"
+        android:id="@+id/x2"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/l2"
+        android:layout_below="@id/l1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="COLLEGE:  "
+            android:textColor="#3fffb3"
+            android:textSize="30dp"
+            android:id="@+id/x3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@id/x3"
+            android:textColor="#3fffb3"
+            android:id="@+id/x4"
+            android:textSize="30dp"/>
+    </LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:id="@+id/l3"
+android:layout_below="@id/l2">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:text="YEAR:  "
+    android:textColor="#3fffb3"
+    android:textSize="30dp"
+    android:id="@+id/x5"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_toRightOf="@id/x5"
+    android:textColor="#3fffb3"
+    android:id="@+id/x6"
+    android:textSize="30dp"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/l4"
+        android:layout_below="@id/l3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="COURSE:  "
+            android:textColor="#3fffb3"
+            android:id="@+id/x7"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@id/x7"
+            android:id="@+id/x8"
+            android:textColor="#3fffb3"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
